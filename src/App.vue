@@ -24,7 +24,7 @@ import Footer from '@/components/Footer.vue'
     class="btn-up w-10 h-10 bg-second right-10 bottom-10 z-50 fixed flex justify-center items-center">
     <i class="fa-solid fa-arrow-up text-white"></i>
   </a>
-  <!-- <main class="h-svh"></main> -->
+
 </template>
 
 <style scoped>
