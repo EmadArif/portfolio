@@ -1,0 +1,168 @@
+[
+    {
+        "id": 1,
+        "title": "Tool & Services",
+        "skills": [
+            {
+                "id": 1,
+                "title": "Sketchup 3D",
+                "value": 95
+            },
+            {
+                "id": 2,
+                "title": "Enscape 3D",
+                "value": 95
+            },
+            {
+                "id": 3,
+                "title": "Vusial Studio",
+                "value": 90
+            },
+            {
+                "id": 4,
+                "title": "Unity Engine",
+                "value": 90,
+                "details": [
+                    {
+                        "id": 1,
+                        "title": "Programming Side"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Github",
+                "value": 70
+            },
+            {
+                "id": 6,
+                "title": "Docker",
+                "value": 50
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Technical Skills & Sofrware",
+        "skills": [
+            {
+                "id": 1,
+                "title": "C#",
+                "value": 90,
+                "details": [
+                    {
+                        "id": 1,
+                        "title": "OOP"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Data Structure"
+                    },
+                    {
+                        "id": 3,
+                        "title": "Algorithms"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "HTML & CSS",
+                "value": 80,
+                "details": [
+                    {
+                        "id": 1,
+                        "title": "Tailwind Css"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Bootstrap"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Javascript",
+                "value": 70
+            },
+            {
+                "id": 4,
+                "title": "Golang",
+                "value": 70,
+                "details": [
+                    {
+                        "id": 1,
+                        "title": "Basics"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Gofibre"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Vue.js",
+                "value": 70
+            },
+            {
+                "id": 6,
+                "title": "Flutter",
+                "value": 80,
+                "details": [
+                    {
+                        "id": 1,
+                        "title": "Bloc (Cubit)"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Hive"
+                    },
+                    {
+                        "id": 1,
+                        "title": "Sqlite"
+                    },
+                    {
+                        "id": 1,
+                        "title": "Firebase"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "title": "ASP .Net Core Web API",
+                "value": 70
+            },
+            {
+                "id": 8,
+                "title": "Oracle SQL",
+                "value": 70
+            },
+            {
+                "id": 9,
+                "title": "SQL Server",
+                "value": 70
+            },
+            {
+                "id": 10,
+                "title": "MySQL",
+                "value": 70
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Languages",
+        "skills": [
+            {
+                "id": 1,
+                "title": "Arabic",
+                "value": 100
+            },
+            {
+                "id": 2,
+                "title": "English",
+                "value": 75
+            }
+        ]
+    }
+]

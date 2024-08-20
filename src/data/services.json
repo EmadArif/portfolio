@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Game Desgin",
+        "des": "I can handle the programming side of game design within Unity, I've been doing this for a long time.",
+        "icon": "fa-solid fa-gamepad"
+    },
+    {
+        "id": 2,
+        "title": "Websites",
+        "des": "Using Vue.js framework with Tailwind CSS I can build a single page app that is integrated and responsive to all devices.",
+        "icon": "fa-brands fa-vuejs"
+    },
+    {
+        "id": 3,
+        "title": "Mobile App",
+        "des": "I can design professional mobile apps using flutter with a guarantee of writing flexible and clean code.",
+        "icon": "fa-brands fa-flutter"
+    },
+    {
+        "id": 4,
+        "title": "Restful API",
+        "des": "Build Restful API services using .NET environment professionally with full protection of the service.",
+        "icon": "fa-regular fa-life-ring"
+    },
+    {
+        "id": 5,
+        "title": "Decoration Design",
+        "des": "I have been designing many interior and exterior designs for a long time, with the final result being realistic.",
+        "icon": "fa-solid fa-compass-drafting"
+    }
+]

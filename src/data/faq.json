@@ -1,0 +1,190 @@
+[
+    {
+        "id": 1,
+        "q": "How I learned to Code",
+        "steps": [
+            {
+                "id": 1,
+                "title": "Games",
+                "des": "My love for games pushed me to try to explore the depths of programming, trying to understand how games are designed. It was a difficult beginning."
+            },
+            {
+                "id": 2,
+                "title": "College Projects",
+                "des": "Studying also pushed my abilities in trying to design desktop programs."
+            },
+            {
+                "id": 3,
+                "title": "First real work",
+                "des": "My work with Al Arabiya Soft Company gave me a greater insight into the world of programming, and greatly motivated me to develop my skills in building applications and services."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "q": "Fields of study",
+        "steps": [
+            {
+                "id": 1,
+                "title": "Computer Science and engineering",
+                "des": "5 years of study in the Faculty of Engineering, graduated in 2021 - 2022."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "q": "My college projects",
+        "steps": [
+            {
+                "id": 1,
+                "title": "Project I",
+                "des": "I used Arduino to design a programmable game controller."
+            },
+            {
+                "id": 2,
+                "title": "Final Project",
+                "des": "I developed the controller to be wireless and built a library that allows programmers to use it in designing their games in the Unity engine."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "q": "Courses and workshops",
+        "steps": [
+            {
+                "id": 1,
+                "title": "Arduino Robotics Course",
+                "des": "I took a course in Arduino robot programming at the Kuwait Center in Aden for a month."
+            },
+            {
+                "id": 2,
+                "title": "Aden Architecture Workshop",
+                "des": "A theoretical and practical workshop for a month, including field trips to the streets of Aden, trying to study the Adeni decor. I finished the workshop with my design for a café with a modern Adeni style."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "q": "My first job",
+        "steps": [
+            {
+                "id": 1,
+                "title": "3D Decorations",
+                "des": "I first worked as an interior and exterior designer with Dar Al Arab Engineering for about a year."
+            },
+            {
+                "id": 2,
+                "title": "Technical support",
+                "des": "I started my first job with Al Arabiya Soft as a technical support employee for 6 months."
+            },
+            {
+                "id": 2,
+                "title": "Developer",
+                "des": "Then I was transferred to the programming department of the company for about a year and a half."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "q": "Hobbies",
+        "steps": [
+            {
+                "id": 1,
+                "title": "Video Game",
+                "des": "My favorite game is Hollow Knight."
+            },
+            {
+                "id": 2,
+                "title": "3D Desgin",
+                "des": "Interested in everything related to 3D design, technology and new programs in this field."
+            },
+            {
+                "id": 3,
+                "title": "Football",
+                "des": "Real Madrid fan."
+            },
+            {
+                "id": 4,
+                "title": "Watching movies",
+                "des": "I love watching movies and TV series, my favorite genre is drama, mystery and horror, and I like comedies sometimes."
+            },
+            {
+                "id": 5,
+                "title": "Programming",
+                "des": "Interested in everything related to programming and modern technologies, and interested in learning the field of Dev Ops one day."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "q": "Programming Process",
+        "steps": [
+            {
+                "id": 1,
+                "title": "Brainstorming",
+                "des": "Looking for new ideas to implement, so that I can offer a different and new product."
+            },
+            {
+                "id": 2,
+                "title": "Analysis",
+                "des": "I analyze all aspects of the application trying to find weaknesses and complex aspects."
+            },
+            {
+                "id": 3,
+                "title": "Choosing framework",
+                "des": "Choosing the right framework is very important to build the best possible application or website."
+            },
+            {
+                "id": 4,
+                "title": "UI/UX",
+                "des": "First, the app interface is drawn with interactive elements and output as images with element dimensions."
+            },
+            {
+                "id": 5,
+                "title": "Frontend",
+                "des": "Convert images and sizes into a design that fits all device sizes."
+            },
+            {
+                "id": 6,
+                "title": "Backend",
+                "des": "Building the API service and database to add the ability to save site data via the control panel."
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "q": "Decoration design Process",
+        "steps": [
+            {
+                "id": 1,
+                "title": "Measurements",
+                "des": "Looking for new ideas to implement, so that I can offer a different and new product."
+            },
+            {
+                "id": 2,
+                "title": "Client ideas",
+                "des": "Ask the client several questions about what the final result of the work is expected to be."
+            },
+            {
+                "id": 3,
+                "title": "Collecting ideas",
+                "des": "Start by creating visual feedback about the nature of the design, trying to create new and elegant designs."
+            },
+            {
+                "id": 4,
+                "title": "Design",
+                "des": "Convert measurements and ideas into 3D designs."
+            },
+            {
+                "id": 5,
+                "title": "Rendering",
+                "des": "Create realistic rendering of designs in the form of images and videos"
+            },
+            {
+                "id": 6,
+                "title": "Deliver the design",
+                "des": "Delivering the final design and measurements to the client and helping him implement them on the ground."
+            }
+        ]
+    }
+]
