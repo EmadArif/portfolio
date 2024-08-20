@@ -30,7 +30,7 @@ import expJson from '@/data/experiences.json'
                             class="flex justify-start items-center border border-gray-100 p-1">
                             <h1 class="font-bold text-6xl mr-2 px-2 md:text-7xl text-second">{{ e.years }}</h1>
 
-                            <h1 class="font-bold capitalize text-sm  base">Yeas of<span
+                            <h1 class="font-bold capitalize text-sm  base">Years of<span
                                     class="block ">{{ e.title }}</span>
                             </h1>
                         </div>

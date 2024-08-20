@@ -1,5 +1,12 @@
 <script setup>
 import Call from './Call.vue';
+
+function openLink(link) {
+    if (link) {
+        window.open(link, '_blank');
+    }
+}
+
 </script>
 
 <template>
@@ -13,16 +20,20 @@ import Call from './Call.vue';
 
                     <div class="social absolute flex items-center  w-1/3 justify-start gap-2 text-2xl">
 
-                        <a href="">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
+                        <button @click="openLink('https://www.facebook.com/Emad.Unity')">
+                            <i class="
+                            fa-brands
+                            fa-facebook"></i>
+                        </button>
 
-                        <a href="">
+                        <button @click="openLink('https://github.com/EmadArif')">
                             <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a href="">
-                            <i class="fa-brands fa-youtube"></i>
-                        </a>
+                        </button>
+                        <button @click="openLink('https://www.youtube.com/@homeofgamesnews')">
+                            <i class="
+                            fa-brands
+                            fa-youtube"></i>
+                        </button>
                     </div>
                     <img class="absolute  translate-x-1/3 h-full bottom-0 right-0"
                         src="../assets/person4.svg"
@@ -57,16 +68,4 @@ import Call from './Call.vue';
     </section>
 </template>
 
-<style scoped>
-/* .info .content h1 {
-    animation-delay: 0.1s;
-}
-
-.info .content p {
-    animation-delay: 0.2s;
-}
-
-.info .contacts {
-    animation-delay: 0.3s;
-} */
-</style>
+<style scoped></style>
