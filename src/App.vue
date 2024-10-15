@@ -8,6 +8,8 @@ import Skills from '@/components/Skills.vue'
 import Services from '@/components/Services.vue'
 import FAQ from '@/components/FAQ.vue'
 import Footer from '@/components/Footer.vue'
+
+
 </script>
 
 <template>

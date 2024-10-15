@@ -3,30 +3,35 @@
         "id": 1,
         "icon": "fa-solid fa-phone",
         "title": "Call me now",
-        "contact": "(+967) 778825844"
+        "contact": "(+967) 778825844",
+        "link": "tel:+967778825844"
     },
     {
         "id": 2,
         "icon": "fa-solid fa-envelope",
         "title": "Send me email",
-        "contact": "eng.emadarefsaleh@gmail.com"
+        "contact": "eng.emadarefsaleh@gmail.com",
+        "link": "mailto:eng.emadarefsaleh@gmail.com"
     },
     {
         "id": 3,
         "icon": "fa-solid fa-location-dot",
         "title": "Get me here",
-        "contact": "Khormakser, Aden"
+        "contact": "Khormakser, Aden",
+        "link": "https://maps.app.goo.gl/GpznP2b4deRPpr1LA"
     },
     {
         "id": 4,
         "icon": "fa-brands fa-github",
         "title": "Browse my work",
-        "contact": "github.com/EmadArif"
+        "contact": "github.com/EmadArif",
+        "link": "https://github.com/EmadArif"
     },
     {
         "id": 4,
         "icon": "fa-brands fa-youtube",
         "title": "Watch me videos",
-        "contact": "youtube.com/@homeofgamesnews"
+        "contact": "youtube.com/@emad-dev",
+        "link": "https://www.youtube.com/@emad-dev"
     }
 ]
