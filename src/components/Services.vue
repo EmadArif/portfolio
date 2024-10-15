@@ -1,7 +1,8 @@
-<script setup>
+<script setup lang="js">
 import { ref } from 'vue';
 import ServiceCard from './ServiceCard.vue';
 import servJson from '@/data/services.json'
+
 const selectedId = ref(1)
 </script>
 
@@ -17,9 +18,9 @@ const selectedId = ref(1)
             <div class="flex justify-center items-center gap-9 flex-wrap">
 
                 <ServiceCard @click="() => { selectedId = s.id }"
-                    v-for="s in servJson"
+                    v-for="(s, index) in servJson"
                     :selected="selectedId === s.id"
-                    :key="s.id"
+                    :key="index"
                     :service="s" />
 
             </div>

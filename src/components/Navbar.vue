@@ -61,13 +61,7 @@ function selectLink(id) {
 <template>
     <header class="md:bg-blur fixed w-full z-50 top-0 border-b border-base-2">
         <div class="relative nav bg-blur container py-3">
-
-
-
             <div class="relative nav transition-all flex flex-row gap-5 md:gap-0  items-center justify-between">
-
-
-
                 <div class="logo flex items-center justify-center bg-second min-w-11 min-h-11 text-white">
                     <h1 class="text-4xl font-semibold">E.</h1>
                 </div>
