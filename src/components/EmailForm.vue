@@ -38,7 +38,7 @@
                 class="cursor-pointer w-full flex items-center justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-second hover:bg-second-hover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:bg-second-hover gap-2">
                 <i v-show="submitting"
                     class="fa-solid fa-circle-notch text-xl animate-spin"></i>
-                Submitting
+                {{ submitTitle }}
             </button>
 
         </form>
@@ -57,16 +57,18 @@ const form = ref({
 })
 
 const submitting = ref(false)
-
+const submitTitle = ref('Submit');
 const publicKey = import.meta.env.VITE_PUBLIC_KEY
 const serviceID = import.meta.env.VITE_SERVICE_ID
 const templateID = import.meta.env.VITE_TEMPLATE_ID
+console.log(templateID);
 
 function handleSubmit() {
     if (submitting.value)
         return;
     console.log(form.value);
     submitting.value = true;
+    submitTitle.value = 'Submitting';
 
     new Promise((resolve) => {
         setTimeout(() => {
@@ -76,12 +78,18 @@ function handleSubmit() {
                 }).then(
                     () => {
                         console.log('SUCCESS!');
+
+                        submitTitle.value = 'Submitted'
+                        submitting.value = false
+
                     },
                     (error) => {
                         console.log('FAILED...', error.text);
+                        submitTitle.value = 'Submit'
+                        submitting.value = false
                     },
 
-                    submitting.value = false
+
                 );
 
         }, 1000);
