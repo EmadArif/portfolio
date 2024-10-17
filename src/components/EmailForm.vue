@@ -61,12 +61,11 @@ const submitTitle = ref('Submit');
 const publicKey = import.meta.env.VITE_PUBLIC_KEY
 const serviceID = import.meta.env.VITE_SERVICE_ID
 const templateID = import.meta.env.VITE_TEMPLATE_ID
-console.log(templateID);
 
 function handleSubmit() {
     if (submitting.value)
         return;
-    console.log(form.value);
+    // console.log(form.value);
     submitting.value = true;
     submitTitle.value = 'Submitting';
 
@@ -78,10 +77,14 @@ function handleSubmit() {
                 }).then(
                     () => {
                         console.log('SUCCESS!');
-
                         submitTitle.value = 'Submitted'
                         submitting.value = false
-
+                        form.value = {
+                            name: '',
+                            subject: '',
+                            email: '',
+                            message: ''
+                        }
                     },
                     (error) => {
                         console.log('FAILED...', error.text);
